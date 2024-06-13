@@ -25,7 +25,7 @@ camera.position.z = 2;
 // initialising scene
 const scene = new THREE.Scene();
 
-// ------------------------------------- boilerplate code ends -------------------------------------
+// ------------------------------------- boilerplate code ends 
 
 // adding controls as a last step
 const controls = new OrbitControls(camera, renderer.domElement);
