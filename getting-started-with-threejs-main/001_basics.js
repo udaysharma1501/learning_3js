@@ -61,8 +61,8 @@ wireMesh.scale.setScalar(1.00001); // to make the wireMesh fit exactly on the ed
 mesh.add(wireMesh); // instead of making the wireMesh a child of the scene - we instead make it a child of the mesh
 
 // adding lights -------------------------------------
-const hemLight = new THREE.HemisphereLight(0xaa5500, 0x0099ff);
-scene.add(hemLight);
+const hemiLight = new THREE.HemisphereLight(0xaa5500, 0x0099ff);
+scene.add(hemiLight);
 
 // adding the scene and camera to the renderer - always done at EOF -------------------------------------
 // renderer.render(scene, camera);
